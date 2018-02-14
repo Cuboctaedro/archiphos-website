@@ -1,0 +1,11 @@
+{
+  "name": "archiphos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.1",
+    "tailwindcss": "^0.4.1"
+  }
+}

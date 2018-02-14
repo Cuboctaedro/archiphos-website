@@ -1,0 +1,15 @@
+baseURL:                    "/"
+config:                     "config.yml"
+defaultLayout:              "post"
+defaultContentLanguage:     "en"
+# Allows you to disable all page types and will render nothing related to 'kind';
+# values = "page", "home", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"
+disableKinds: ["taxonomy", "taxonomyTerm"]
+summaryLength:              70
+metaDataFormat:             "yaml"
+paginate:                   100
+title:                      "ArchiPhos"
+taxonomies: ""
+params:
+    slogan: "Architectural Photography"
+

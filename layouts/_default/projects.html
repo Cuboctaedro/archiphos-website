@@ -1,0 +1,22 @@
+{{ define "meta" }}
+{{ end }}
+{{ define "main" }}
+<section>
+    {{ partial "pagetitle.html" . }}
+    <div class="flex flex-wrap flex-row">
+        {{ range .Data.Pages }}
+            <div class="px-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 flex-none mb-8">
+                <a href="{{ .Permalink }}">
+                    <div class="sm:w-col sm:h-col flex items-center content-center overflow-hidden hover:shadow-lg">
+                    {{ range first 1 (.Resources.Match .Params.featured) }}
+                        {{ $image := .Fill "330x330" }}
+                        <img src="{{ $image.Permalink }}" alt="{{ .Name }}" class="max-w-full"/>
+                    {{ end }}
+                    </div>
+                    <h2 class="text-sm leading-normal font-normal">{{ .Title }}</h2>
+                </a>
+            </div>
+        {{ end }}
+    </div>
+</section>
+{{ end }}

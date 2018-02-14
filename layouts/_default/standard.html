@@ -1,0 +1,10 @@
+{{ define "meta" }}
+{{ end }}
+{{ define "main" }}
+<section>
+    {{ partial "pagetitle.html" . }}
+    <div class="px-4 w-full lg:w-2/3 xl:w-1/2 flex-none mb-8 mx-auto content">
+        {{ .Content }}
+    </div>
+</section>
+{{ end }}
