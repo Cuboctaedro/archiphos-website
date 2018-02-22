@@ -1,4 +1,4 @@
-baseURL:                    "https://www.archiphos.com"
+baseURL:                    "https://archiphos.com"
 config:                     "config.yml"
 defaultLayout:              "post"
 defaultContentLanguage:     "en"
