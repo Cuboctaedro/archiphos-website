@@ -1,4 +1,4 @@
-baseURL:                    "/"
+baseURL:                    "https://www.archiphos.com"
 config:                     "config.yml"
 defaultLayout:              "post"
 defaultContentLanguage:     "en"
@@ -12,4 +12,6 @@ title:                      "ArchiPhos"
 taxonomies: ""
 params:
     slogan: "Architectural Photography"
+imaging:
+    resampleFilter: "Lanczos"
 

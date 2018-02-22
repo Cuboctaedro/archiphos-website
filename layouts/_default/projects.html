@@ -1,4 +1,25 @@
 {{ define "meta" }}
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+            {{ $length := len .Data.Pages }}
+            {{ range $index, $element := .Data.Pages }}
+            {
+                "@type": "ListItem",
+                {{ $position :=add $index 1 }}
+                "position": {{ $position }},
+                "url": "{{ $element.Permalink }}"
+            }
+            {{ if ne $position $length }}
+            ,
+            {{ end }}
+            {{ end }}
+        ]
+    }
+</script>
+
 {{ end }}
 {{ define "main" }}
 <section>
@@ -9,7 +30,7 @@
                 <a href="{{ .Permalink }}">
                     <div class="sm:w-col sm:h-col flex items-center content-center overflow-hidden hover:shadow-lg">
                     {{ range first 1 (.Resources.Match .Params.featured) }}
-                        {{ $image := .Fill "330x330" }}
+                        {{ $image := .Fill "300x300 Center" }}
                         <img src="{{ $image.Permalink }}" alt="{{ .Name }}" class="max-w-full"/>
                     {{ end }}
                     </div>

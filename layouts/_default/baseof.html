@@ -14,8 +14,8 @@
     <meta property="og:description" content="{{ .Summary }}">
     {{ if .Params.featured }}
     {{ range first 1 (.Resources.Match .Params.featured) }}
-        <meta property="og:image" content="{{ . | absURL }}">
-        <meta name="twitter:image" content="{{ . | absURL }}">
+        <meta property="og:image" content="{{ .Permalink }}">
+        <meta name="twitter:image" content="{{ .Permalink }}">
     {{ end }}
     {{ end }}
     <meta name="twitter:card" content="summary_large_image">
@@ -57,7 +57,7 @@
                 <ul class="list-reset md:text-right">
                 {{ range .Site.Menus.main }}
                     <li class="inline-block md:pl-4">
-                        <a href="{{ .URL }}" class="under">{{ .Name }}</a>
+                        <a href="{{ $.Site.BaseURL }}{{ .URL }}" class="under">{{ .Name }}</a>
                     </li>
                 {{ end }}
                 </ul>
