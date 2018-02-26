@@ -5,5 +5,5 @@ layout: project
 weight: 0110
 ---
 
-Architects: Pierre Jorge Gonzalez / Judith Haase / Atelier Architecture & Scenography  
-Place: Berlin, Germany
+Pierre Jorge Gonzalez / Judith Haase / Atelier Architecture & Scenography  
+Berlin, Germany

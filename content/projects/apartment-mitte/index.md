@@ -5,5 +5,5 @@ layout: project
 weight: 0080
 ---
 
-Corina Engel & Berlin Cuisine  
+Engelarchitekten + Berlin Cuisine  
 Berlin, Germany
