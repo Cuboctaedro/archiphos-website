@@ -765,5 +765,5 @@
 }));
 baguetteBox.run('.project-gallery', {
     animation:  'fadeIn',
-    overlayBackgroundColor: 'rgba(255,255,255,0.95)',
+    overlayBackgroundColor: 'rgb(255,255,255)',
 });

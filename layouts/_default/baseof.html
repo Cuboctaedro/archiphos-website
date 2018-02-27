@@ -29,16 +29,16 @@
 </head>
 <body class="font-mono text-sm leading-normal">
     {{ if .IsHome }}
-        <div class="bg-cover bg-no-repeat bg-center w-screen h-screen relative" style="background-image:url('/images/background.jpg');">
+        <div class="bg-cover bg-no-repeat bg-center w-screen h-screen relative" style="background-image:url('/images/cover.jpg');">
             <header class="text-center absolute pin-t pin-w w-full">
-                <h1 class="mt-16 text-white text-xl pb-8">{{ .Site.Title }}</h1>
-                <div class="text-white text-lg">{{ .Site.Params.slogan }}</div>
+                <h1 class="mt-16 text-xl pb-8">{{ .Site.Title }}</h1>
+                <div class="text-lg">{{ .Site.Params.slogan }}</div>
             </header>
             <nav class="absolute pin-b pin-w w-full mb-8">
                 <ul class="list-reset text-center">
                 {{ range .Site.Menus.main }}
                     <li class="sm:inline-block px-4">
-                        <a href="{{ .URL }}" class="under text-white">{{ .Name }}</a>
+                        <a href="{{ .URL }}" class="under">{{ .Name }}</a>
                     </li>
                 {{ end }}
                 </ul>

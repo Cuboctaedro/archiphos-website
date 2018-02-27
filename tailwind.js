@@ -113,9 +113,7 @@ module.exports = {
 
   fonts: {
     'mono': [
-      'Work Sans',
-      'Frutiger',
-      'Frutiger Linotype',
+      // 'Work Sans',
       'Univers',
       'Helvetica Neue',
       'Helvetica',
