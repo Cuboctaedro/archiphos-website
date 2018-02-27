@@ -113,15 +113,16 @@ module.exports = {
 
   fonts: {
     'mono': [
-      'Space Mono',
-      'Monaco',
-      'Consolas',
-      'Liberation Mono',
-      'Courier New',
-      'monospace',
+      'Work Sans',
+      'Frutiger',
+      'Frutiger Linotype',
+      'Univers',
+      'Helvetica Neue',
+      'Helvetica',
+      'Arial',
+      'sans-serif',
     ]
   },
-
   /*
   |-----------------------------------------------------------------------------
   | Text sizes                         https://tailwindcss.com/docs/text-sizing
