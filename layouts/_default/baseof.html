@@ -28,23 +28,6 @@
     <link rel="stylesheet" href="{{ "/styles/style.css" | absURL }}" type="text/css">    
 </head>
 <body class="font-mono text-sm leading-normal">
-    {{ if .IsHome }}
-        <div class="bg-cover bg-no-repeat bg-center w-screen h-screen relative" style="background-image:url('/images/cover.jpg');">
-            <header class="text-center absolute pin-t pin-w w-full">
-                <h1 class="mt-16 text-xl pb-8">{{ .Site.Title }}</h1>
-                <div class="text-lg">{{ .Site.Params.slogan }}</div>
-            </header>
-            <nav class="absolute pin-b pin-w w-full mb-8">
-                <ul class="list-reset text-center">
-                {{ range .Site.Menus.main }}
-                    <li class="sm:inline-block px-4">
-                        <a href="{{ .URL }}" class="under">{{ .Name }}</a>
-                    </li>
-                {{ end }}
-                </ul>
-            </nav>
-        </div>
-    {{ else }}
     <div class="w-full sm:w-wrapper-1 md:w-wrapper-2 lg:w-wrapper-3 xl:w-wrapper-4 px-4 mx-auto pb-8">
         <div class="flex flex-wrap flex-row mb-16 justify-between pt-8">
             <header class="px-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 flex-none mb-8">
@@ -56,7 +39,7 @@
             <nav class="px-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 flex-none mb-8 self-end">
                 <ul class="list-reset md:text-right">
                 {{ range .Site.Menus.main }}
-                    <li class="inline-block md:pl-4">
+                    <li class="inline-block pr-4 md:pr-0 md:pl-4">
                         <a href="{{ $.Site.BaseURL }}{{ .URL }}" class="under">{{ .Name }}</a>
                     </li>
                 {{ end }}
@@ -70,6 +53,5 @@
     </div>
     <script src="{{ "/scripts/index.js" | absURL }}"></script>
     <link rel="stylesheet" href="{{ "/styles/gallery.css" | absURL }}" type="text/css">
-    {{ end }}
 </body>
 </html>
