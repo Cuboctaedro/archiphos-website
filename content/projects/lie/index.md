@@ -2,8 +2,8 @@
 title: Lie
 featured: 0010-jmh-cd-lie.jpg
 layout: project
-order: 0130
+weight: 0170
 ---
 
-J. Mayer H.  
+J. Mayer H.
 Berlin, Germany

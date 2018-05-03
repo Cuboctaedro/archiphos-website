@@ -113,7 +113,7 @@ module.exports = {
 
   fonts: {
     'mono': [
-      // 'Work Sans',
+      'Source Sans Pro',
       'Univers',
       'Helvetica Neue',
       'Helvetica',
@@ -141,7 +141,7 @@ module.exports = {
   */
 
   textSizes: {
-    'sm': '.875rem',    // 14px
+    'sm': '1rem',    // 16px
     'md': '1.125rem',   // 18px
     'lg': '1.5rem',    // 24px
     'xl': '2.25rem',   // 36px

@@ -1318,7 +1318,7 @@ a {
 }
 
 .font-mono {
-  font-family: Univers, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Source Sans Pro, Univers, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .font-normal {
@@ -2496,7 +2496,7 @@ a {
 }
 
 .text-sm {
-  font-size: .875rem;
+  font-size: 1rem;
 }
 
 .text-md {
@@ -3031,7 +3031,7 @@ a {
   }
 
   .sm\:font-mono {
-    font-family: Univers, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Source Sans Pro, Univers, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 
   .sm\:font-normal {
@@ -4149,7 +4149,7 @@ a {
   }
 
   .sm\:text-sm {
-    font-size: .875rem;
+    font-size: 1rem;
   }
 
   .sm\:text-md {
@@ -4620,7 +4620,7 @@ a {
   }
 
   .md\:font-mono {
-    font-family: Univers, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Source Sans Pro, Univers, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 
   .md\:font-normal {
@@ -5738,7 +5738,7 @@ a {
   }
 
   .md\:text-sm {
-    font-size: .875rem;
+    font-size: 1rem;
   }
 
   .md\:text-md {
@@ -6209,7 +6209,7 @@ a {
   }
 
   .lg\:font-mono {
-    font-family: Univers, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Source Sans Pro, Univers, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 
   .lg\:font-normal {
@@ -7327,7 +7327,7 @@ a {
   }
 
   .lg\:text-sm {
-    font-size: .875rem;
+    font-size: 1rem;
   }
 
   .lg\:text-md {
@@ -7798,7 +7798,7 @@ a {
   }
 
   .xl\:font-mono {
-    font-family: Univers, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Source Sans Pro, Univers, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 
   .xl\:font-normal {
@@ -8916,7 +8916,7 @@ a {
   }
 
   .xl\:text-sm {
-    font-size: .875rem;
+    font-size: 1rem;
   }
 
   .xl\:text-md {

@@ -2,8 +2,8 @@
 title: Stan Hema
 featured: 0010-stanhema.jpg
 layout: project
-weight: 0170
+weight: 0160
 ---
 
-Thomas Bendel  
+Thomas Bendel
 Berlin, Germany
